@@ -41,7 +41,7 @@ validator vesting {
 
  
 type TestCase {
-  is_owner_signed: Bool,
+  owner_is_signed: Bool,
   is_beneficiary_signed: Bool,
   is_lock_time_passed: Bool,
 }
