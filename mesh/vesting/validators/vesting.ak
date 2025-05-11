@@ -70,7 +70,7 @@ test success_unlocking() {
   let datum = Some(vesting_datum())
   let test_case =
     TestCase {
-      is_owner_signed: True,
+      owner_is_signed: True,
       is_beneficiary_signed: True,
       is_lock_time_passed: True,
     }
